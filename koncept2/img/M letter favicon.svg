@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" version="1.1" viewBox="0 0 8.4667 8.4667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient4448">
+   <stop stop-color="#f2f4b7" offset="0"/>
+   <stop stop-color="#c68d1c" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient1045" cx="178.7" cy="224.71" r="105.83" gradientTransform="matrix(-4.5118 1.1381e-7 0 -4.4966 1017.9 1010.4)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#195b8c" offset="0"/>
+   <stop stop-color="#092336" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient4450" cx="193.23" cy="220.92" r="22.215" gradientTransform="matrix(.61323 0 0 1.7131 74.737 -157.53)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4448"/>
+ </defs>
+ <g transform="translate(-101.6,-101.6)">
+  <g transform="matrix(.04 0 0 .04 101.6 101.6)">
+   <path x="-3.376465e-06" y="-3.376465e-06" width="211.66667" height="211.66667" d="m31.75-3.3765e-6h148.17a31.75 31.75 45 0 1 31.75 31.75v148.17a31.75 31.75 135 0 1-31.75 31.75h-148.17a31.75 31.75 45 0 1-31.75-31.75v-148.17a31.75 31.75 135 0 1 31.75-31.75z" fill="url(#radialGradient1045)" fill-rule="evenodd" stroke-width=".39132"/>
+   <g transform="matrix(4.4142 0 0 4.4142 -747.13 -869.34)" fill="url(#radialGradient4450)" style="shape-inside:url(#rect3022);white-space:pre" aria-label="M">
+    <path d="m212.07 201.22-3.9551 4.0129v29.649l3.551 3.3777h-13.28l4.0129-3.3777v-19.429l-9.1517 25.174h-2.7715l-0.23095-0.77948h2.5116l9.6425-26.849v-4.4171l-10.74 29.649h-2.0209l-7.9103-23.298v15.272q0 3.0602 0.40418 4.3304 0.40417 1.2703 1.9054 2.8004l2.5983 3.2911h-15.099l-0.51966-0.77948h14.175l-1.0682-1.5878h-12.876l0.60626-0.31756q3.2045-1.761 4.215-3.551 1.0393-1.8188 1.0393-5.7162v-23.875l-3.8108-3.5798h14.926l-4.1861 3.7819 8.1701 24.164 1.0393-2.5117-7.3906-21.421 3.7819-2.8004 0.60627 0.49079-3.6087 2.5405 6.871 20.122 7.4484-20.584-3.5221-3.7819zm-32.68 6.8421v20.728q0 4.7635 0.89496 6.5534 0.92383 1.7899 3.7819 2.5983l-0.25982-0.43305q-2.8292-1.9631-2.8292-5.6584v-19.198zm34.297-4.5903-3.2623 2.3384v29.101l5.0233 5.7162h-15.33l-0.40418-0.77948h13.973l-4.0129-4.5325v-29.996l3.4066-2.3384z" fill="url(#radialGradient4450)"/>
+   </g>
+  </g>
+ </g>
+</svg>

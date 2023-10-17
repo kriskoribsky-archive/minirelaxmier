@@ -1,0 +1,177 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body {
+    background: rgb(71, 74, 78) url('../assets/img/wood background.jpg') repeat;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, li, a {
+    font-family: 'Times New Roman', Georgia, serif
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    word-spacing: 0.07rem;
+    /* letter-spacing: 0.5px; */
+}
+
+.main-nav {
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(255, 0, 0);
+    overflow: hidden;
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+
+.main-nav li a {
+    color: white;
+    transition: color .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+.main-nav li a:hover {
+    color: rgb(224, 205, 205);
+}
+
+.photo {
+    border: 3px solid red;
+    width: 60%;
+    /* height: 600px; */
+    /* height: auto; */
+    margin: 5rem auto 0px;
+}
+
+.headings {
+    text-align: center;
+}
+
+.headings h2 {
+    display: inline;
+    padding: 0px 6rem;
+    margin: 0px auto;
+}
+
+.slideshow {
+    width: 100%;
+    /* fallback */
+    height: 35rem;
+    height: calc(100%-2.5rem)
+}
+
+.tour h1 {
+    margin: 4rem auto 1.5rem;
+}
+
+.tour .google-maps-tour {
+    margin: 0px auto;
+    border: 3px solid blue;
+    height: 600px;
+    width: 75%
+}
+
+
+.price-list {
+    margin: 8rem auto 6rem;
+    text-align: center;
+    width: 60%;
+}
+
+.price-list h1, h3 {
+    margin-bottom: 2rem;
+}
+
+.price-list p {
+    font-style: italic;
+    margin-bottom: 6rem;
+}
+
+.price-list table {
+    font-size: 1.5rem;
+    margin: 0px auto 2rem;
+    width: 75%;
+    border-collapse: collapse;
+}
+
+.price-list th, td {
+    padding: 0.45rem 3rem;
+    font-size: 1.2rem;
+}
+
+.price-list tr td:first-child, th:first-child {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.price-list th {
+    text-transform: uppercase;
+}
+
+.price-list tr {
+    border: 1px solid white;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    margin-top: 2rem;
+}
+
+.contact a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.operating-hours {
+    margin: 4rem 0 1rem;
+}
+
+.contact table {
+    margin: 0px auto;
+    border-collapse: collapse;
+}
+
+.contact tr {
+    border: 1px solid white
+}
+
+.google-maps-location {
+    margin: 6rem auto;
+    border: 3px solid green;
+    width: 75%;
+    height: 800px;
+}
